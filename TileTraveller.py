@@ -241,8 +241,7 @@ while current_tile != "3.1":
             current_tile = answer
 
 
-
-    #direction = input("Direction: ")
+#https://github.com/esterg18/TileTraveller?fbclid=IwAR0O-sgCe5TB3aJ_2BiFwrdgdrONOAmE0lViox7dYVHWSRu47zCnQtiXMdg
 
 
 
