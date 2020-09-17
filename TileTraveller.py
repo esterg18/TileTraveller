@@ -1,14 +1,8 @@
-
-
 #  Fall fyrir hverja tile ----- tile(1.2)
 #  while lykkja sem útilokar 3.1
-#  
-
 #  prenta victory 
-#
 
 # fall fyrir tile_1.1
-
 def tile_1_1(direction):
    
     if direction == "n" or direction == "N":
@@ -16,7 +10,8 @@ def tile_1_1(direction):
         return current_tile
 
     else:
-        return "Not a valid direction!"
+        error = "Not a valid direction!"
+        return error
 
 # fall fyrir tile_1.2
 def tile_1_2(direction):
@@ -31,7 +26,9 @@ def tile_1_2(direction):
         current_tile = "1.1"
         return current_tile
     else:
-        return print("Not a valid direction!")
+        error = "Not a valid direction!"
+        return error
+
 
 # fall fyrir tile_1.3
 def tile_1_3(direction):
@@ -43,7 +40,9 @@ def tile_1_3(direction):
         current_tile = "1.2"
         return current_tile
     else:
-        return print("Not a valid direction!")
+        error = "Not a valid direction!"
+        return error
+
 
 
 # fall fyrir tile_2.1
@@ -53,10 +52,8 @@ def tile_2_1(direction):
         current_tile = "2.2"
         return current_tile
     else:
-        return print("Not a valid direction!")
-
-
-
+        error = "Not a valid direction!"
+        return error
 
 # fall fyrir tile_2.2
 def tile_2_2(direction):
@@ -68,7 +65,8 @@ def tile_2_2(direction):
         current_tile = "2.1"
         return current_tile
     else:
-        return print("Not a valid direction!")
+        error = "Not a valid direction!"
+        return error
 
 
 
@@ -82,8 +80,8 @@ def tile_2_3(direction):
         current_tile = "3.3"
         return current_tile
     else:
-        return print("Not a valid direction!")
-
+        error = "Not a valid direction!"
+        return error
 
 #fall fyrir tile_3.3
 def tile_3_3(direction):
@@ -95,7 +93,9 @@ def tile_3_3(direction):
         current_tile = "3.2"
         return current_tile
     else:
-        return print("Not a valid direction!") 
+        error = "Not a valid direction!"
+        return error
+
 
 #fall fyrir tile_3.2     
 def tile_3_2(direction):
@@ -106,8 +106,8 @@ def tile_3_2(direction):
         current_tile = "3.1"
         return current_tile
     else:
-        return print("Not a valid direction!") 
-
+        error = "Not a valid direction!"
+        return error
 
 
 current_tile = "1.1"
